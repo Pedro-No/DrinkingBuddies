@@ -1,0 +1,100 @@
+html,body{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: rgb(25, 25, 25);
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CLOCK */
+.clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 250px;
+  font-size: 90px;
+  font-family: sans-serif
+}
+.clock_hour {
+  color: white;
+}
+.clock_middle {
+  color: rgb(113, 113, 113);
+}
+.clock_minute {
+  color: rgb(142, 0, 0);
+}
+.clock_second {
+  color: red;
+}
+
+/* Drinking Buddies Banner */
+.title_banner{
+  color: white;
+  font-size: 60px;
+  font-family: sans-serif;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+/* Group Cards */
+.buddy_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.group_card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(57, 57, 57);
+  border-radius: 20px;
+  align-items: center;
+
+  height: 400px;
+  width: 300px;
+}
+.group_card_members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20%;
+}
+.group_member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.group_member_img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.group_member_name {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.group_member_drinks_title {
+  margin: 0;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.group_member_drinks_subtitle {
+  margin-top: 10px;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+}
